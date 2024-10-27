@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+        Task 5: Simple Calculator
+        Scenario: You are developing a simple calculator that performs basic arithmetic operations.
+    
+        Task:
+
+        Assume variables num1 and num2 hold two numbers, and operator holds the arithmetic operator as a string (e.g., “+”).
+        Use a switch case statement to perform the operation and store the result in a variable result.
+        Print the result. 
+    -->
+
+    <pre>
+        code:
+            
+
+        var a=+prompt("Enter First Number");
+        var b=+prompt("Enter Seconde Number");
+        var op=prompt("Enter operation in b/w (+, -, /, %, *, **)");
+        switch(op){
+            case "+":
+            var c=a+b;
+            console.log(c);
+            window.alert(c);
+            break;
+
+            case "-":
+            var c=a-b;
+            console.log(c);
+            window.alert(c);
+            break;
+
+            case "*":
+            var c=a*b;
+            console.log(c);
+            window.alert(c);
+            break;
+
+            case "/":
+            var c=a/b;
+            console.log(c);
+            window.alert(c);
+            break;
+
+            case "%":
+            var c=a%b;
+            console.log(c);
+            window.alert(c);
+            break;
+
+            case "**":
+            var c=a**b;
+            console.log(c);
+            window.alert(c);
+            break;
+        
+            
+            default:
+            console.log("Enter a valid input");
+            window.alert("Enter a valid input");
+
+        }
+
+        output:
+            5
+            5
+            +
+            10 //solution
+    </pre>
+
+    <Script>
+
+        var a=+prompt("Enter First Number");
+        var b=+prompt("Enter Seconde Number");
+        var op=prompt("Enter operation in b/w (+, -, /, %, *, **)");
+        console.log(a);
+        console.log(b);
+        console.log(op);
+        switch(op){
+            case "+":
+            var c=a+b;
+            console.log(c);
+            window.alert(c);
+            break;
+
+            case "-":
+            var c=a-b;
+            console.log(c);
+            window.alert(c);
+            break;
+
+            case "*":
+            var c=a*b;
+            console.log(c);
+            window.alert(c);
+            break;
+
+            case "/":
+            var c=a/b;
+            console.log(c);
+            window.alert(c);
+            break;
+
+            case "%":
+            var c=a%b;
+            console.log(c);
+            window.alert(c);
+            break;
+
+            case "**":
+            var c=a**b;
+            console.log(c);
+            window.alert(c);
+            break;
+        
+            
+            default:
+            console.log("Enter a valid input");
+            window.alert("Enter a valid input");
+
+        }
+    </Script>
+</body>
+</html>

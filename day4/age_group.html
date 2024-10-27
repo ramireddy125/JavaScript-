@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <pre>
+        Code:
+        var age=+prompt('enter Your age to known which age group you are');
+        var ac=(age>=0 && age<=12) ? "Child":
+               (age>=13 && age<=19) ? "Teen":
+               (age>=20 && age<=64) ? "Adult":"Senior";
+               
+
+
+        window.alert(ac); // output in aleret box
+        console.log(ac);  // output in console tab
+
+
+        Result:
+            i/p: 9  // Child
+            i/p: 15 // Teen        
+            i/p: 20 // Adult
+            i/p: 65 // Senior
+
+    </pre>
+    
+
+    <!-- Age Group: Declare a variable age and 
+    use the ternary operator to classify the age into "Child" (0-12), "Teen" (13-19),
+    "Adult" (20-64), and "Senior" (65 and above). Log the result. -->
+
+
+    <script>
+        var age=+prompt('enter Your age to known which age group you are');
+        var ac=(age>=0 && age<=12) ? "Child":
+               (age>=13 && age<=19) ? "Teen":
+               (age>=20 && age<=64) ? "Adult":"Senior";
+
+               
+               
+
+
+        window.alert(ac); // output in aleret box
+        console.log(ac);  // output in console tab
+
+    </script>
+</body>
+</html>

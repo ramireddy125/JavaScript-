@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Right click, press Inspect and goto the console tab to view output</h3>
+
+
+
+    <script>
+        // Falsy Values
+        var a = ''; 
+        var b = a ? true : false;
+        console.log(b);
+
+        var a = false; 
+        var b = a ? true : false;
+        console.log(b);
+
+        var a = 0; 
+        var b = a ? true : false;
+        console.log(b);
+
+        var a = null; 
+        var b = a ? true : false;
+        console.log(b);
+
+        var a = undefined; 
+        var b = a ? true : false;
+        console.log(b);
+
+
+        //Truthy Values
+        var a = true; 
+        var b = a ? true : false;
+        console.log(b);
+
+        var a = 5; 
+        var b = a ? true : false;
+        console.log(b);
+
+        var a = 'venky'; 
+        var b = a ? true : false;
+        console.log(b);
+
+        var a = ['venkat','null','ram']; 
+        var b = a ? true : false;
+        console.log(b);
+
+    </script>
+</body>
+</html>

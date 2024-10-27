@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    Task 1: Day of the Week Message
+        Scenario: Develop a webpage that displays a special message based on the current day of the week.
+        
+        “Start your week strong!” for Monday.
+        “Keep going!” for Tuesday.
+        “Halfway there!” for Wednesday.
+        “Almost the weekend!” for Thursday.
+        “Happy Friday!” for Friday.
+        “Enjoy your weekend!” for Saturday and Sunday.
+        
+        Task:
+        Get the current day of the week.
+        Display the corresponding message.
+    -->
+
+    <pre>
+        code:
+            var day=prompt("Enter a day in Week in lower case");
+            if(day==monday){
+                console.log("Start your week strong!");
+            }
+            elseif(day==tuesday){
+                console.log("Keep going!");
+            }
+            elseif(day==wednesday){
+                console.log("Halfway there!");
+            }
+            elseif(day==thursday){
+                console.log("Almost the weekend!");
+            }
+            elseif(day==friday){
+                console.log("Happy Friday!");
+            }
+            elseif(day==saturday){
+                console.log("Enjoy your weekend!");
+            }
+            elseif(day==sunday){
+                console.log("Ready for monday :)");
+            }
+            else{
+                console.log("Enter a valid input :( "); 
+            }
+    </pre>
+
+
+
+    <Script>
+
+        var day=prompt("Enter a day in Week in lower case");
+        if(day=="monday"){
+            console.log("Start your week strong!");    // output in console tab
+            window.alert("Start your week strong!");   // output in console tab
+        }
+        else if(day=="tuesday"){
+            console.log("Keep going!");
+            window.alert("Keep going!");
+        }
+        else if(day=="wednesday"){
+            console.log("Halfway there!");
+            window.alert("Halfway there!");
+        }
+        else if(day=="thursday"){
+            console.log("Almost the weekend!");
+            window.alert("Almost the weekend!");
+        }
+        else if(day=="friday"){
+            console.log("Happy Friday!");
+            window.alert("Happy Friday!");
+        }
+        else if(day=="saturday"){
+            console.log("Enjoy your weekend!");
+            window.alert("Enjoy your weekend!");
+        }
+        else if(day=="sunday"){
+            console.log("Ready for monday :)");
+            window.alert("Ready for monday :)");
+        }
+        else{
+            console.log("Enter a valid input :( ");
+            window.alert("Enter a valid input :( "); 
+        }
+
+    </Script>
+</body>
+</html>

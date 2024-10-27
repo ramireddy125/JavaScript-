@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        
+        var body=document.getElementsByTagName("body")[0]; 
+        body.style.width="48vw";
+        body.style.height="auto"; 
+        body.style.border="3px solid black";
+        
+        // Name
+        var head1=document.createElement("h1");
+        head1.innerText="VENKATA RAMIREDDY ";
+        head1.style.textAlign="center";
+        // head1.style.paddingLeft="25px";
+        head1.style.color="green";
+        head1.style.fontSize="40px";
+        document.body.appendChild(head1);
+
+        // CAREER OBJECTIVE
+        var sh1=document.createElement("h3");
+        sh1.innerText="CAREER OBJECTIVE";
+        sh1.style.paddingLeft="25px";
+        sh1.style.color="red";
+        sh1.style.fontSize="26px";
+        document.body.appendChild(sh1);
+
+        // CAREER OBJECTIVE statement
+        var co=document.createElement("p");
+        co.innerText="Responsible and motivated student ready to apply education in the workplace. Offers excellent technical abilities with software and applications, ability to handle challenging work, and excellent time management skills.";
+        co.style.paddingLeft="25px";
+        document.body.appendChild(co);
+
+        // Technical Skills
+        var sh2=document.createElement("h3");
+        sh2.innerText="Technical Skills";
+        sh2.style.paddingLeft="25px";
+        sh2.style.color="red";
+        sh2.style.textAlign="left";
+        sh2.style.fontSize="26px";
+        document.body.appendChild(sh2);
+        var ts=document.createElement("ul");
+        var li1=document.createElement("li");
+        var li2=document.createElement("li");
+        var li3=document.createElement("li");
+        var li4=document.createElement("li");
+        var li5=document.createElement("li");
+        ts.style.listStyleType="none";
+        li1.innerText="Java";
+        li2.innerText="Python";
+        li3.innerText="HTML";
+        li4.innerText="CSS";
+        li5.innerText="Java Script";
+        ts.appendChild(li1);
+        ts.appendChild(li2);
+        ts.appendChild(li3);
+        ts.appendChild(li4);
+        ts.appendChild(li5);
+        document.body.appendChild(ts);
+
+        
+        // Soft Skills
+        var sh3=document.createElement("h3");
+        sh3.innerText="Soft Skills";
+        sh3.style.paddingLeft="25px";
+        sh3.style.color="red";
+        sh3.style.textAlign="left";
+        sh3.style.fontSize="26px";
+        document.body.appendChild(sh3);
+        var ts=document.createElement("ul");
+        var li1=document.createElement("li");
+        var li2=document.createElement("li");
+        var li3=document.createElement("li");
+        var li4=document.createElement("li"); 
+        ts.style.listStyleType="none";
+        li1.innerText="Adaptapility";
+        li2.innerText="Self Motivation";
+        li3.innerText="Self Confidence";
+        li4.innerText="Team Work"; 
+        ts.appendChild(li1);
+        ts.appendChild(li2);
+        ts.appendChild(li3);
+        ts.appendChild(li4); 
+        document.body.appendChild(ts);
+
+
+        //Hobbies.
+        var sh4=document.createElement("h3");
+        sh4.innerText="Soft Skills";
+        sh4.style.paddingLeft="25px";
+        sh4.style.color="red";
+        sh4.style.textAlign="left";
+        sh4.style.fontSize="26px";
+        document.body.appendChild(sh4);
+
+        var hob=document.createElement("ul");
+        hob.style.listStyleType="none";
+        hobbies=["playing Cricket","Listening Music","watching Movies"]; 
+        for(var i=0;i<hobbies.length;i++){
+            var li=document.createElement("li");
+            li.innerText=hobbies[i];
+            li.style.color="green";
+            li.style.fontSize="16px";
+            hob.appendChild(li);
+        }
+        document.body.appendChild(hob);
+
+
+        // Declaration
+        var sh5=document.createElement("h3");
+        sh5.innerText="Declaration";
+        sh5.style.paddingLeft="25px";
+        sh5.style.color="red";
+        sh5.style.textAlign="left";
+        sh5.style.fontSize="26px";
+        document.body.appendChild(sh5);
+
+        // Declaration Statement
+        var ds=document.createElement("p");
+        ds.innerText="I hereby declare that the information furnished above is genuine to the best of my belief and I hold the responsibility of their authenticity and correctness.";
+        ds.style.paddingLeft="25px";
+        document.body.appendChild(ds);
+
+        // sign
+        var sign=document.createElement("p");
+        sign.innerText="-venkata ramireddy";
+        sign.style.paddingLeft="600px";
+        document.body.appendChild(sign);
+
+
+    </script>
+</body>
+</html>

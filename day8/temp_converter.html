@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    
+    <!--     
+        Task 6: Temperature Converter
+        Scenario: Create a function that converts temperatures between Celsius and Fahrenheit.
+        Task:
+        Define a function convertTemperature that takes two parameters: temp (the temperature) and scale (the scale to convert to, either “C” or “F”).
+        The function should return the converted temperature.
+        Test the function with different temperatures and scales and print the results.
+        Hints:-
+        formula for celscious (temp - 32) * 5/9
+        formula for fahrehnheit (temp * 9/5) + 32 
+    -->
+
+    <script>
+        var a=prompt("if you need to convert fahrenheit to celsious press c (or) need to convert celsious to fahrenheit press f");
+        var b=+prompt("Enter Your Temperature");
+        console.log(a);
+        console.log(b);
+
+        function temp(a,b) {
+            if(a=='c'){
+                t=(b-32)*5/9;
+                console.log("Your Temperature is converted into Celsious: "+t);  
+            }
+            else if(a=='f'){
+                t=(b*9/5)+32;
+                console.log("Your Temperature is converted into Fahrenheit: "+t);  
+            }   
+            else{
+                console.log("Enter Your Correct Details");   
+            }
+        }
+        temp(a,b);
+
+    </script>
+</body>
+</html>

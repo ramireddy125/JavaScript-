@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Check</title>
+</head>
+<body>
+
+    <pre>
+        Code:
+                var n=+prompt('enter Temperature for Temperature Check');
+                var temp=n>30 ? "HOT":
+                          n>=20 ? "Warm":
+                          n>=10 ? "Cool":"cold";
+                window.alert(temp); // output in aleret box
+                console.log(temp);  // output in console tab
+
+
+        Result:
+            i/p: 9  // Cold
+            i/p: 10 // cool        
+            i/p: 20 // Warm
+            i/p: 30 // Warm
+            i/p: 32 // Hot 
+
+    </pre>
+
+
+    <!-- Temperature Check: Declare a variable temperature and 
+    use nested ternary operators to categorize it as "Hot" (above 30), "Warm" (20-30), "Cool" (10-19), and "Cold" (below 10). Log the result. -->
+
+    
+    <script>
+        var n=+prompt('enter Temperature for Temperature Check');
+        var temp=n>30 ? "HOT":
+                  n>=20 ? "Warm":
+                  n>=10 ? "Cool":"cold";
+
+
+
+        window.alert(temp); // output in aleret box
+        console.log(temp);  // output in console tab
+
+    </script>
+    
+</body>
+</html>

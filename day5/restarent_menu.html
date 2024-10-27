@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--     
+        Task 4: Restaurant Menu
+        Scenario: You are developing a restaurant menu system that provides the price of a dish based on the dish name.
+
+        Task:
+        Assume a variable dish holds the name of the dish as a string (e.g.,  "Biriyani", "shawarma", "Fried rice", "veg pula").
+        Print the price.
+    -->
+
+    <pre>
+        code:
+            var dish=prompt("Enter a name of the dish(only Biriyani, shawarma, Fried rice, veg pula. in Lower case) to display Cost");
+            switch(dish){
+                case "biriyani":
+                    console.log("Cost of Biriyani is 180/-");
+                    window.alert("Cost of Biriyani is 180/-");
+                    break;
+            
+                case "shawarma":
+                    console.log("Cost of Shawarma is 80/-");
+                    window.alert("Cost of Shawarma is 80/-");
+
+                case "fried rice":
+                    console.log("Cost of Fried Rise is 100/-");
+                    window.alert("Cost of Fried Rise is 100/-");
+
+                    case "veg pulav":
+                console.log("Cost of veg pula is 220/-");
+                window.alert("Cost of veg pula is 220/-");
+            
+                default:
+                console.log("Enter a valid name as shown alert box in Lower case!");
+                window.alert("Enter a valid input in Lower case!");
+
+            }    
+
+        Output:
+            biriyani //180/-
+            shawarma //80/-
+            fried rice //100/-
+            veg pulav
+    </pre>
+
+    <Script>
+
+        var dish=prompt("Enter a name of the dish(only Biriyani, shawarma, Fried rice, veg pulav. in Lower case) to display Cost");
+        switch(dish){
+            case "biriyani":
+                console.log("Cost of Biriyani is 180/-");
+                window.alert("Cost of Biriyani is 180/-");
+                break;
+        
+            case "shawarma":
+                console.log("Cost of Shawarma is 80/-");
+                window.alert("Cost of Shawarma is 80/-");
+                break;
+
+            case "fried rice":
+                console.log("Cost of Fried Rise is 100/-");
+                window.alert("Cost of Fried Rise is 100/-");
+                break;
+
+            case "veg pulav":
+                console.log("Cost of veg pulav is 220/-");
+                window.alert("Cost of veg pulav is 220/-");
+                break;
+        
+            default:
+            console.log("Enter a valid name as shown alert box in Lower case!");
+            window.alert("Enter a valid input in Lower case!");
+
+        }
+
+        
+
+    </Script>
+</body>
+</html>

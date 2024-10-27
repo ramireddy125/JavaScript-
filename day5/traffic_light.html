@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+        Task 2: Traffic Light Simulation
+        Scenario: Simulate a traffic light system.
+
+        “Stop” if the light is red.
+        “Get Ready” if the light is yellow.
+        “Go” if the light is green.
+        Task:
+
+        Prompt the user to enter the color of the traffic light.
+        Display the corresponding action. 
+    -->
+
+
+    <pre>
+        code:
+            var day=prompt("Enter a light color (in lower case) to display message");
+            if(day=="red"){
+                console.log("Stop!");
+                window.alert("Stop!");
+            }
+            else if(day=="yellow"){
+                console.log("Keep going!");
+                window.alert("Keep going!");
+            }
+            else if(day=="grren"){
+                console.log("Go!");
+                window.alert("Go!");
+            }
+            else{
+                console.log("Enter a valid input in Lower case!");
+                window.alert("Enter a valid input in Lower case!");
+            }
+
+        output:
+            red     //Stop!
+            yellow  //Get Ready
+            green   //Go
+            orange  //Enter a valid input in Lower case!
+
+            
+        
+    </pre>
+
+
+
+    <Script>
+
+        var day=prompt("Enter a light color (in lower case) to display message");
+        if(day=="red"){
+            console.log("Stop!");
+            window.alert("Stop!");
+        }
+        else if(day=="yellow"){
+            console.log("Keep going!");
+            window.alert("Keep going!");
+        }
+        else if(day=="grren"){
+            console.log("Go!");
+            window.alert("Go!");
+        }
+        else{
+            console.log("Enter a valid input in Lower case!");
+            window.alert("Enter a valid input in Lower case!");
+        }
+
+    </Script>
+</body>
+</html>

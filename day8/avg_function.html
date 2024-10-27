@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avg Function</title>
+</head>
+<body>
+    
+    
+    <!-- 
+        Task 4: Average Function
+        Scenario: Create a function that takes an array of numbers as an argument and returns the average.
+        Task:
+        hint:[2,5,2] =9/3=3
+        Define a function average that takes one parameter arr.
+        The function should return the average of the numbers in arr.
+        Call the function with different arrays and print the results.
+    -->
+
+
+
+    <script>
+        var len=+prompt("Enter Length of the string");
+        var a=[];
+        var sum=0;
+        for(i=0;i<len;i++){
+            a[i]= +prompt("");
+        }
+        console.log("Given Array is "+a);
+        
+        function avg(a) {
+            for(i=0;i<len;i++){
+                sum=sum+a[i];
+            }
+            var avg=sum/len;
+            console.log("avg value of given numbers "+avg);
+        }
+        avg(a);
+
+        
+    </script>
+</body>
+</html>

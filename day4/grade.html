@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Check</title>
+</head>
+<body>
+    <pre>
+        Code:
+                var n=+prompt('enter Your marks in the range of 1-100 to check Your Grade');
+                var Grade=n>=90 ? "A Grade":
+                        n>=75 ? "B Grade":
+                        n>=60 ? "C Grade":
+                        n>=45 ? "D Grade":"Fail";
+
+
+
+                window.alert(Grade);  // output in alert box
+                console.log(Grade); // output in console tab
+
+
+        Result:
+            i/p: 95  //A Grade
+            i/p: 76 // B Grade        
+            i/p: 62 // C Grade
+            i/p: 45 // D Grade
+            i/p: 18 // Fail 
+
+    </pre>
+
+    
+
+    <!-- Grade Classification: Declare a variable score and set it to a value between 0 and 100.
+    Use nested ternary operators to classify the score into grades: A (>= 90), B (>= 75), C (>= 60),
+     D (>= 45), and F (below 45). Log the grade. -->
+
+    <script>
+        var n=+prompt('enter Your marks in the range of 1-100 to check Your Grade');
+        var Grade=n>=90 ? "A Grade":
+                  n>=75 ? "B Grade":
+                  n>=60 ? "C Grade":
+                  n>=45 ? "D Grade":"Fail";
+
+
+
+        window.alert(Grade);  // output in alert box
+        console.log(Grade); // output in console tab
+    </script>
+    
+</body>
+</html

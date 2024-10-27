@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- TASK-1: Reverse a string Input : hello output : olleh -->
+    <script>
+        /*var a='hello';
+          var b= a.split('').reverse().join('');
+          split() method divides the string into an array of characters,
+          reverse() reverses the array, and 
+          join() combines the reversed characters into a new string
+          effectively reversing the original string. 
+            for (i of b) {
+                console.log(i);
+            }
+        */ 
+        //by using for in 
+        var a=prompt("Enter a String");
+        var b='';
+        for(i in a){
+            b=a[i]+b;
+        }
+        console.log(b);
+        
+        // by using for of
+        var a=prompt("Enter a String");
+        var b='';
+        for(i of a){
+            b=i+b;
+        }
+        console.log(b);
+        
+        
+    </script>
+</body>
+</html>
